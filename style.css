@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Utility */
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col   {
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: blue;
+}
+/* End Utility */
+.page{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.navbar{
+    background-color: black;
+}
+
+.navbar > h1{
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer > h1{
+    margin: 15px 0 0 0;
+    align-self: center;
+}
+
+.contents{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.leftcol{
+    flex: 1;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.avabox{
+    border: 5px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.avabox > svg{
+    margin: 20px;
+}
+
+.avabox > a{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.avabox > h1{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.rightcol{
+    flex: 3;
+    justify-content: space-between;
+}
+
+.feedbox{
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.content{
+    margin: 0px 0px 20px 0px;
+    padding: 20px;
+    border: 5px solid black; 
+}
+
+.content-header{
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 15px 0px;
+}
+
+.likebox > h1{
+    padding: 10px;
+}
+
+.likebox > button{
+    background-color: gold;
+    box-shadow: 3px 3px 0px black;
+    font-size: 12px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.content-footer{
+    font-size: 20px;
+}

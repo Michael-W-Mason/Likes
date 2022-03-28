@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <div class="navbar flex-row">
+                <h1>Network</h1>
+            </div>
+        </header>
+        <footer>
+            <h1>Your Feed</h1>
+            <div class="contents flex-row">
+                <div class="leftcol flex-col">
+                    <div class="avabox flex-col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                        <a href="#">Add an avatar</a>
+                        <h1>James Doe</h1>
+                    </div>
+                </div>
+                <div class="rightcol flex-col">
+                    <div class="feedbox flex-col">
+                        <div class="content flex-col">
+                            <div class="content-header flex-row">
+                                <h1>Neil M</h1>
+                                <div class="likebox flex-row">
+                                    <h1><span id="likenum1">9</span> Likes</h1>
+                                    <button onclick="addLike(1)">Like</button>
+                                </div>
+                            </div>
+                            <div class="content-footer">
+                                <p>I just set up this new discord bot, let me know what you all think. <a
+                                        href="#">link</a></p>
+                            </div>
+                        </div>
+                        <div class="content flex-col">
+                            <div class="content-header flex-row">
+                                <h1>Nichole K</h1>
+                                <div class="likebox flex-row">
+                                    <h1><span id="likenum2">12</span> Likes</h1>
+                                    <button onclick="addLike(2)">Like</button>
+                                </div>
+                            </div>
+                            <div class="content-footer">
+                                <p>Just finished my <a href="#">Next comic</a>, check it out.</p>
+                            </div>
+                        </div>
+                        <div class="content flex-col">
+                            <div class="content-header flex-row">
+                                <h1>Jim R</h1>
+                                <div class="likebox flex-row">
+                                    <h1><span id="likenum3">9</span> Likes</h1>
+                                    <button onclick="addLike(3)">Like</button>
+                                </div>
+                            </div>
+                            <div class="content-footer">
+                                <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
